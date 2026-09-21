@@ -1,6 +1,7 @@
 .ModHub{
-    background: linear-gradient(#f3d490,#fabd8f,#fae98f);
+   background: linear-gradient(#f3d490, #fabd8f, #fae98f);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-weight: bold;
 }
@@ -12,12 +13,12 @@ body{
 }
 @font-face {
     font-family: 'Stardew Valley';
-    src:url("assets/font-regular.otf") format("truetype");
+    src:url("assets/font-regular.otf") format("opentype");
 }
 .banner{
-    width: 100%;
-    height: 180px;
-    object-fit: cover; /* Обрезает картинку без сжатия */
-    object-position: center; /* Держит логотип по центру */
+   width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center 35%;
     display: block;
 }
